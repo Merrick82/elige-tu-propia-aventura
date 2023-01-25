@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Elige tu propia aventura</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo_chico.png" alt="logo" width="50" height="50">
+                    <span>Elige tu propia Aventura</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center header-center" id="navbarNavAltMarkup">
+                    <div id="links" class="navbar-nav">
+                        <a class="nav-link" href="./pages/movies.html">Películas</a>
+                        <a class="nav-link" href="./pages/music.html">Música</a>
+                        <a class="nav-link" href="./pages/books.html">Libros</a>
+                        <a class="nav-link" href="./pages/contact_us.html">Contáctenos</a>
+                        <a class="nav-link" href="./pages/about.html">Sobre Nosotros</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="banner" class="container-fluid top-space">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <p id="free_shipping" class="text-center"><strong>ENVIOS GRATIS A PARTIR DE $7500</strong></p>
+                <div id="carousel-autoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./pages/movies.html"><img src="./images/banner.jpg" class="d-block w-100" alt="banner"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./pages/music.html"><img src="./images/music-banner.webp" class="d-block w-100" alt="musicBanner"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p id="banner-music" class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./pages/books.html"><img src="./images/books-banner.webp" class="d-block w-100" alt="booksBanner"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p id="banner-book" class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-autoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-autoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container top-space">
+        <h2 class="second-title">Medios de Pago</h2>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/visa-logo.jpg" class="card-img-top" alt="visa">
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>VISA</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/mastercard-logo.jpg" class="card-img-top" alt="master">
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>MASTERCARD</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/cash-logo.webp" class="card-img-top" alt="cash">
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>EFECTIVO</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rating" class="container top-space">
+        <h2 class="second-title">Quienes Compraron</h2>
+        <div class="row g-2">
+            <div class="col-md-4">
+                <div class="card p-3 text-center px-4 card-rating">
+                    <div class="user-image">
+                        <img src="./images/rating1.jpg" class="rounded-circle" width="80">
+                    </div>
+                    <div class="user-content">
+                        <h5 class="mb-0">Bruce Hardy</h5>
+                        <span>Lector Empedernido</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center px-4 card-rating">
+                    <div class="user-image">
+                        <img src="./images/rating2.jpg" class="rounded-circle" width="80">
+                    </div>
+                    <div class="user-content">
+                        <h5 class="mb-0">Mark Smith</h5>
+                        <span>Cinéfilo</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center px-4 card-rating">
+                    <div class="user-image">
+                        <img src="./images/rating3.jpg" class="rounded-circle" width="80">
+                    </div>
+                    <div class="user-content">
+                        <h5 class="mb-0">Veera  Duncan</h5>
+                        <span>Productor Musical</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center footer">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-12">
+                    © 2023 Federico Tarasco, Inc
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
