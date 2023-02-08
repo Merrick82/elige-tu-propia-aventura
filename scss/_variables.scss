@@ -1,0 +1,36 @@
+/* fonts */
+$principalFont: 'Roboto', sans-serif;
+
+/* colors */
+$first-color: black;
+$second-color: white;
+$third-color: purple;
+$fourth-color: orange;
+$fifth-color: blue;
+$sixth-color: rgba(0, 0, 0, 0.2);
+$seventh-color: #DC3545;
+
+/* background */
+$transparent-bg: transparent;
+
+/* spaces */
+$no-space: 0;
+$first-space: 1rem;
+$second-space: 2rem;
+$third-space: 3rem;
+
+/* font-sizes */
+$font-size-12: 12px;
+$font-size-19: 19.2px;
+$font-size-48: 48px;
+$font-size-50: 50px;
+
+@mixin center-to-bottom {
+    text-align: center;
+    margin-bottom: $third-space;
+}
+
+@mixin no-padding-sides {
+    padding-left: 0;
+    padding-right: 0;
+}
