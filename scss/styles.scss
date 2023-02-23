@@ -19,28 +19,14 @@
     @include center-to-bottom;
 }
 
-#banner {
-    @include no-padding-sides;
-    color: $second-color;
-}
-
-#banner p {
+#banner-title {
     background-color: $third-color;
     margin-bottom: 0rem;
-}
-
-.banner_title {
-    color: $fourth-color;
-    font-size: $font-size-50;
-    background-color: $transparent-bg !important;
-}
-
-#banner-music {
     color: $second-color;
 }
 
-#banner-book {
-    color: $first-color;
+.card-payment {
+    width: $eighteen-space;
 }
 
 .card-organizer {
@@ -124,4 +110,8 @@
 
 .interest {
     border: solid 1px $first-color;
+}
+
+.justify {
+    text-align: $text-justify;
 }

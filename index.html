@@ -7,7 +7,7 @@
 
     <!-- Palabras clave -->
     <meta name="keywords" content="inicio, homepage, home, peliculas, movies, musica, music, libros, books, venta, compra, comprar, vender, aventura, elige">
-    
+
     <!-- Descripcion -->
     <meta name="description" content="Bienvenidos al sitio de Elige tu Propia Aventura, acá podés encontrar los mejores productos para tu tiempo libre.">
 
@@ -23,7 +23,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo_chico.png" alt="logo" width="50" height="50">
@@ -45,67 +45,57 @@
         </nav>
     </header>
 
-    <section id="banner" class="container-fluid top-space">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                <p id="free_shipping" class="text-center"><strong>ENVIOS GRATIS A PARTIR DE $7500</strong></p>
-                <div id="carousel-autoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-autoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="./pages/movies.html"><img src="./images/banner.jpg" class="d-block w-100" alt="banner"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <p class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="./pages/music.html"><img src="./images/music-banner.webp" class="d-block w-100" alt="musicBanner"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <p id="banner-music" class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="./pages/books.html"><img src="./images/books-banner.webp" class="d-block w-100" alt="booksBanner"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <p id="banner-book" class="banner_title">CONSULTAR DESCUENTO EN EFECTIVO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-autoplaying" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-autoplaying" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    <div class="top-space">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <p id="banner-title" class="text-center"><strong>ENVIOS GRATIS A PARTIR DE $7500</strong></p>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="./images/banner.jpg" class="d-block w-100" alt="image1">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./images/music-banner.webp" class="d-block w-100" alt="image2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/books-banner.webp" class="d-block w-100" alt="image3">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
+    </div>
 
-    <main class="container top-space">
+    <main class="container mt-4">
         <h2 class="second-title">Intereses</h2>
         <div class="row g-2">
-            <div class="col-md-4">
+            <!-- <div class="col-md-4"> -->
+            <div class="col-12 col-md-4 col-lg-4">
                 <div class="card p-3 text-center px-4 card-rating">
                     <div class="user-image">
                         <a href="./pages/movies.html"><img src="./images/video-logo_300x300.jpg" class="rounded-circle interest" width="140"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4"> -->
+            <div class="col-12 col-md-4 col-lg-4">
                 <div class="card p-3 text-center px-4 card-rating">
                     <div class="user-image">
                         <a href="./pages/music.html"><img src="./images/music-logo_300x300.jpg" class="rounded-circle interest" width="140"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4"> -->
+            <div class="col-12 col-md-4 col-lg-4">
                 <div class="card p-3 text-center px-4 card-rating">
                     <div class="user-image">
                         <a href="./pages/books.html"><img src="./images/book-logo_300x300.jpg" class="rounded-circle interest" width="140"></a>
@@ -115,11 +105,12 @@
         </div>
     </main>
 
-    <section class="container top-space">
+    <!-- cuando sea mobile separarlo un poco verticalmente -->
+    <section class="container mt-5">
         <h2 class="second-title">Medios de Pago</h2>
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card mx-auto card-payment">
                     <img src="./images/visa-logo.jpg" class="card-img-top" alt="visa">
                     <div class="card-body">
                         <p class="card-text text-center"><strong>VISA</strong></p>
@@ -128,7 +119,7 @@
             </div>
 
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card mx-auto card-payment">
                     <img src="./images/mastercard-logo.jpg" class="card-img-top" alt="master">
                     <div class="card-body">
                         <p class="card-text text-center"><strong>MASTERCARD</strong></p>
@@ -137,7 +128,7 @@
             </div>
 
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card mx-auto card-payment">
                     <img src="./images/cash-logo.webp" class="card-img-top" alt="cash">
                     <div class="card-body">
                         <p class="card-text text-center"><strong>EFECTIVO</strong></p>
@@ -147,7 +138,7 @@
         </div>
     </section>
 
-    <section id="rating" class="container top-space">
+    <section id="rating" class="container mt-5">
         <h2 class="second-title">Quienes Compraron</h2>
         <div class="row g-2">
             <div class="col-md-4">

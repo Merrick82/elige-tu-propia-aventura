@@ -3,6 +3,7 @@
 /* background */
 /* spaces */
 /* font-sizes */
+/* text decoration */
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -47,29 +48,14 @@ footer {
   margin-bottom: 3rem;
 }
 
-#banner {
-  padding-left: 0;
-  padding-right: 0;
-  color: white;
-}
-
-#banner p {
+#banner-title {
   background-color: purple;
   margin-bottom: 0rem;
-}
-
-.banner_title {
-  color: orange;
-  font-size: 50px;
-  background-color: transparent !important;
-}
-
-#banner-music {
   color: white;
 }
 
-#banner-book {
-  color: black;
+.card-payment {
+  width: 18rem;
 }
 
 .card-organizer {
@@ -146,6 +132,10 @@ footer {
 
 .interest {
   border: solid 1px black;
+}
+
+.justify {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=styles.css.map */
